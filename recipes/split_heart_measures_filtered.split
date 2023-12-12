@@ -3,14 +3,14 @@
   "centileSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
-  "defaultOutputIndex": 1,
   "preFilter": {
     "distinct": false,
     "enabled": false
   },
+  "defaultOutputIndex": 1,
   "seed": 1337,
   "randomColumns": [],
   "centileOrders": [],
@@ -18,22 +18,24 @@
   "randomSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 80
     }
   ],
   "randomColumnsSplits": [
     {
       "outputIndex": 0,
-      "share": 50.0
+      "share": 50
     }
   ],
   "computedColumns": [],
   "writeComputedColumnsInOutput": false,
+  "mode": "RANDOM",
   "centileTDigest": false,
   "valueSplits": [
     {
       "outputIndex": 0,
-      "caseSensitive": false
+      "caseSensitive": false,
+      "value": ""
     }
   ],
   "rangeSplits": [
@@ -89,6 +91,60 @@
         "uiData": {
           "mode": "\u0026\u0026",
           "conditions": []
+        },
+        "$status": {
+          "schema": {
+            "columns": [
+              {
+                "name": "Age",
+                "type": "string"
+              },
+              {
+                "name": "Sex",
+                "type": "string"
+              },
+              {
+                "name": "ChestPainType",
+                "type": "string"
+              },
+              {
+                "name": "RestingBP",
+                "type": "string"
+              },
+              {
+                "name": "Cholesterol",
+                "type": "string"
+              },
+              {
+                "name": "FastingBS",
+                "type": "string"
+              },
+              {
+                "name": "RestingECG",
+                "type": "string"
+              },
+              {
+                "name": "MaxHR",
+                "type": "string"
+              },
+              {
+                "name": "ExerciseAngina",
+                "type": "string"
+              },
+              {
+                "name": "Oldpeak",
+                "type": "string"
+              },
+              {
+                "name": "ST_Slope",
+                "type": "string"
+              },
+              {
+                "name": "HeartDisease",
+                "type": "string"
+              }
+            ]
+          }
         },
         "distinct": false,
         "enabled": true
