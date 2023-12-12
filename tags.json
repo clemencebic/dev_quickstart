@@ -1,18 +1,21 @@
 {
   "tags": {
     "python": {},
-    "section:Quick Starts": {},
     "code": {},
     "quick start": {},
+    "machine learning": {},
+    "mlflow": {},
+    "duplicated": {
+      "color": "#3A85AD"
+    },
+    "section:Quick Starts": {},
     "downloads": {},
     "imported": {
       "color": "#263238"
     },
     "developer": {},
     "tutorial": {},
-    "machine learning": {},
     "section:Quick Start": {},
-    "notebook": {},
-    "mlflow": {}
+    "notebook": {}
   }
 }

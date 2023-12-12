@@ -136,7 +136,6 @@
     "dkuProperties": []
   },
   "name": "Developers Quick Start for Administrator",
-  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
@@ -194,11 +193,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1702401743848
+    "lastModifiedOn": 1702401773206
   },
   "creationTag": {
     "versionNumber": 0,
@@ -218,7 +217,8 @@
     "mlflow",
     "developer",
     "downloads",
-    "tutorial"
+    "tutorial",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
