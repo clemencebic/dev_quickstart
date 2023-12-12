@@ -15,7 +15,8 @@
   "additionalDashboardUsers": {
     "users": []
   },
-  "tutorialProject": false,
+  "tutorialProject": true,
+  "tutorialId": "QS_DEVELOPERS",
   "settings": {
     "flowAnchorSourcesAndSinks": true,
     "flowDisplaySettings": {
@@ -133,7 +134,8 @@
     },
     "dkuProperties": []
   },
-  "name": "Developers Quick Start",
+  "name": "Developers Quick Start for Administrator",
+  "projectStatus": "Sandbox",
   "imgPattern": 5,
   "showInitials": false,
   "metrics": {
@@ -191,11 +193,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 19,
+    "versionNumber": 20,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1702401577931
+    "lastModifiedOn": 1702401583698
   },
   "creationTag": {
     "versionNumber": 0,
